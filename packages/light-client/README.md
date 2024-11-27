@@ -18,7 +18,7 @@ The evolution of light clients is emblematic of the broader trajectory of Ethere
 
 ## Requirements for Running a Light-Client
 
-Access to an beacon node that supports the light client specification is necessary. The client must support the following routes from the [consensus API spec](https://github.com/ethereum/beacon-APIs/tree/v2.5.0/apis/beacon/light_client):
+Access to a beacon node that supports the light client specification is necessary. The client must support the following routes from the [consensus API spec](https://github.com/ethereum/beacon-APIs/tree/v2.5.0/apis/beacon/light_client):
 
 - [`GET /eth/v1/beacon/light_client/updates`](https://ethereum.github.io/beacon-APIs/?urls.primaryName=v2.5.0#/Beacon/getLightClientUpdatesByRange)
 - [`GET /eth/v1/beacon/light_client/optimistic_update`](https://ethereum.github.io/beacon-APIs/?urls.primaryName=v2.5.0#/Beacon/getLightClientOptimisticUpdate)
